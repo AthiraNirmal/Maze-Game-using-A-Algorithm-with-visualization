@@ -1,1 +1,3 @@
 # Maze-Game-using-A-Algorithm-with-visualization
+                                                    I. PROBLEM
+To develop a game board which aims to find path from starting point to destination on a n*n box. There will be a user starting from first block who has to reach some designated block. On the way some in some cells there will be opponents who has some weights. Whenever user comes across one opponent, he will lose some points (representing low health points). If the point of user drops to zero, the game is over. The algorithm will find the path with maximum points. The algorithm used is A* algorithm along with the visualization.
