@@ -4,3 +4,11 @@ To develop a game board which aims to find path from starting point to destinati
 
                                                   II. A* ALGORITHM
 A* is a very efficient algorithm and initially, the prime objective of the Algorithm was graph traversal problem to find the shortest path between two points. For the given problem statement, we implemented this approach to find the path which will have largest weights. A* actually extends the Dijkstra's algorithm along with some characteristics of breadth-first search (BFS). The main backbone of the algorithm is the heuristic function h, f and g. The heuristic function calculates the estimated total points from current node to end node, whereas the g function calculates the distance from start node to current node. The function f is the sum of both h and g. The next node to traverse is chosen according to the f value.
+
+                                        III. SOFTWARE DESIGN AND IMPLEMENTATION
+A. SoftwareDesign
+
+First we have to initialize the open_list and closed_list and add the starting cell to the open_list. For each node in open_list, we check for any children nodes possible. We traverse through the matrix until there are no more child nodes or until we reach the destination node. The next node is selected based on the calculated f value of each child node. The node with greatest f value will be taken as the next node. The h value is dependent on the weight each cell possess. The function is called recursively till the open_list is empty.
+
+B. Implementation and Tools Used
+Here, A* is implemented in Python as per the algorithm. For the visualization purpose, we can use the turtle package of Python.
