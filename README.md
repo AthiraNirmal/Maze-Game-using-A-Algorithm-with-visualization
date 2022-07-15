@@ -12,4 +12,9 @@ First we have to initialize the open_list and closed_list and add the starting c
 
 B. Implementation and Tools Used
 Here, A* is implemented in Python as per the algorithm. For the visualization purpose, we can use the turtle package of Python.
+
+
 <img width="817" alt="Screen Shot 2022-07-15 at 6 41 19 PM" src="https://user-images.githubusercontent.com/63495996/179320932-7d3c723c-7f67-4e04-b385-4f8e357c749a.png">
+
+
+<img width="1023" alt="Screen Shot 2022-07-15 at 6 42 15 PM" src="https://user-images.githubusercontent.com/63495996/179321031-cfc8f7c1-bc84-4149-ac1e-120836c4dccf.png">
